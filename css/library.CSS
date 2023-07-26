@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    text-align : center;
+}
+div.library_view{
+    margin: 100px 100px 100px 100px; 
+}
+
+div.library_view>div.library_like{ 
+    float: left;
+    width: 50%;
+    position: static;
+    text-align: center;
+
+}
+div.library_view>div.library_like>span.like:hover{ 
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+div.library_view>div.library_following{
+    float: right;  
+    width: 50%;
+    position: static;
+    text-align: center;
+}
+div.library_view>div.library_following>span.following:hover{ 
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+section{   
+    
+}
+div.paging{
+    position: inline-block;
+    text-align: center;
+    height: 10%;
+    margin-bottom: 50px;
+}
