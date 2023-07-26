@@ -19,6 +19,7 @@ section {
   margin: 0 auto;
   width: 900px;
   border: 1px solid;
+  position: relative;
 }
 /* 섹션 헤더 시작 */
 section div.section-header-title {
@@ -55,8 +56,8 @@ section > article {
 /* 아티클 이미지 시작 */
 section div.img-pic {
   width: 50px;
-  position: relative;
-  top: -805px;
+  position: absolute;
+  top: 192px;
   left: 900px;
 }
 
@@ -69,7 +70,48 @@ section div.img-pic img {
 /* 비공개 설정 시작 */
 section div.secret {
   border: 1px solid;
+  display: flex;
+  align-items: center;
   height: 50px;
+  margin-bottom: 20px;
+}
+section div.secret > span {
+  font-weight: bold;
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+div.secret > label.secret-toggle {
+  width: 100px;
+  height: 50px;
+  display: block;
+  position: relative;
+  border-radius: 30px;
+  background-color: #fff;
+  box-shadow: 0 0 16px 3px rgba(0 0 0/ 15%);
+  cursor: pointer;
+}
+div.secret > label.secret-toggle > .secret-toggle-btn {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background-color: #f03d3d;
+}
+
+div.secret > input:checked ~ .secret-toggle {
+  background-color: #f03d3d;
+}
+div.secret > input:checked ~ .secret-toggle .secret-toggle-btn {
+  left: calc(100% - 44px);
+  background-color: #fff;
+}
+.secret-toggle,
+.secret-toggle-btn {
+  transition: all 0.2s ease-in;
 }
 /* 비공개 설정 끝 */
 
