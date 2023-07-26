@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+/* 헤더 시작 */
+.main-logo {
+  margin: 50px auto;
+  width: 1400px;
+  height: 250px;
+  text-align: center;
+}
+.main-logo > img {
+  height: 100%;
+}
+/* 헤더 끝 */
+
+/* 섹션 시작 */
+section {
+  width: 900px;
+  margin: 0 auto;
+}
+/* 섹션 헤더 제목 시작 */
+section div.section-header-image {
+  border: 1px solid;
+  height: 400px;
+}
+section div.section-header-image > div.main-image {
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  height: 500px;
+  background-image: url(https://talkimg.imbc.com/TVianUpload/tvian/TViews/image/2022/09/18/1e586277-48ba-4e8a-9b98-d8cdbe075d86.jpg);
+  opacity: 0.4;
+}
+/* 섹션 헤더 제목 끝 */
+
+/* 섹션 헤더 타이틀 시작 */
+section div.section-header-title > div.section-header-main-title {
+  text-align: center;
+  font-size: 53px;
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+}
+section div.section-header-title > .section-header-main-subtitle {
+  text-align: center;
+  font-size: large;
+  font-weight: 700;
+  height: 24px;
+}
+
+/* 섹션 헤더 글 정보 시작 */
+section div.section-header-info {
+  display: flex;
+  justify-content: end;
+  font-weight: bold;
+}
+section div.section-header-info > div.section-header-info-writer {
+  margin-right: 10px;
+}
+section div.section-header-info > div.section-header-info-date {
+  /* 숫자 수평정렬 */
+  line-height: 1.4;
+  margin-right: 10px;
+}
+/* 섹션 헤더 글 정보 끝 */
+/* 
+/* 섹션 헤더 엄지척 시작 */
+section div.section-header-icon {
+  display: flex;
+  position: relative;
+  right: -900px;
+  top: 40px;
+  height: 40px;
+}
+*/ section div.section-header-icon:hover {
+  cursor: pointer;
+}
+section div.section-header-icon > img {
+  height: 100%;
+}
+/* 섹션 헤더 엄지척 끝 */
+
+/* 섹션 헤더 끝 */
+
+/* 아티클 시작 */
+section article {
+  margin: 0 auto;
+  height: 100%;
+  border: 1px solid;
+}
+/* 아티클 끝 */
+
+/* 작가 프로필 시작 */
+
+/* 작가 프로필 끝 */
+
+/* 섹션 끝 */

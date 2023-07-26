@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+/* 헤더 시작 */
+.main-logo {
+  margin: 50px auto;
+  width: 1400px;
+  height: 250px;
+  text-align: center;
+}
+.main-logo > img {
+  height: 100%;
+}
+/* 헤더 끝 */
+
+/* 섹션 시작 */
+section {
+  margin: 0 auto;
+  width: 900px;
+  border: 1px solid;
+}
+/* 섹션 헤더 시작 */
+section div.section-header-title {
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+section div.section-header-title > input[name="title"] {
+  height: 53px;
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+  border: none;
+  outline: none;
+}
+
+section div.section-header-subtitle > input[name="subtitle"] {
+  text-align: center;
+  font-size: large;
+  font-weight: 700;
+  height: 24px;
+  border: none;
+  outline: none;
+}
+/* 섹션 헤더 끝 */
+
+/* 아티클 시작 */
+section > article {
+  height: 100vh;
+}
+/* 아티클 이미지 시작 */
+section div.img-pic {
+  width: 50px;
+  position: relative;
+  top: -805px;
+  left: 900px;
+}
+
+section div.img-pic img {
+  width: 100%;
+}
+/* 아티클 이미지 끝 */
+/* 아티클 끝 */
+
+/* 비공개 설정 시작 */
+section div.secret {
+  border: 1px solid;
+  height: 50px;
+}
+/* 비공개 설정 끝 */
+
+/* 카테고리 시작 */
+section div.category ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+section div.category ul > li {
+  width: 84px;
+}
+/* 카테고리 끝 */
+
+/* 글쓰기 등록 버튼 시작 */
+section div.post-btn {
+  display: flex;
+  justify-content: space-around;
+}
+
+section div.post-btn > button {
+  height: 50px;
+  width: 450px;
+}
+/* 글쓰기 버튼 끝 */
+
+/* 섹션 끝 */
