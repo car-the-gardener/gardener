@@ -91,6 +91,16 @@ section article {
 }
 /* 아티클 끝 */
 
+/* 세 가지 버튼 시작 */
+div.modify-btn {
+  display: flex;
+  justify-content: end;
+}
+div.modify-btn > div {
+  width: 150px;
+}
+/* 세 가지 버튼 끝 */
+
 /* 작가 프로필 시작 */
 div.writer-profile {
   border: 1px solid;
