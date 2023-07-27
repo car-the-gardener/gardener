@@ -1,11 +1,28 @@
+@font-face {
+  font-family: "Diphylleia";
+  src: url(../assets/font/TitleFont/Diphylleia-Regular.ttf);
+}
+@font-face {
+  font-family: "article";
+  src: url(../assets/font/article-font/KoPubDotumMedium.ttf);
+}
+
 * {
   box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+section img {
+  width: 100px;
 }
 
 /* 헤더 시작 */
 .main-logo {
   margin: 50px auto;
-  width: 1400px;
+  max-width: 1400px;
   height: 250px;
   text-align: center;
 }
@@ -17,13 +34,12 @@
 /* 섹션 시작 */
 section {
   margin: 0 auto;
-  width: 900px;
-  border: 1px solid;
+  max-width: 900px;
+
   position: relative;
 }
 /* 섹션 헤더 시작 */
 section div.section-header-title {
-  border: 1px solid;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -37,6 +53,7 @@ section div.section-header-title > input[name="title"] {
   font-size: xx-large;
   border: none;
   outline: none;
+  font-family: "Diphylleia";
 }
 
 section div.section-header-subtitle > input[name="subtitle"] {
@@ -46,12 +63,19 @@ section div.section-header-subtitle > input[name="subtitle"] {
   height: 24px;
   border: none;
   outline: none;
+  font-family: "Diphylleia";
 }
 /* 섹션 헤더 끝 */
 
 /* 아티클 시작 */
 section > article {
-  height: 100vh;
+  min-height: 600px;
+  height: 100%;
+  font-family: "article";
+}
+
+section > article > div {
+  min-height: 400px;
 }
 /* 아티클 이미지 시작 */
 section div.img-pic {
@@ -69,7 +93,6 @@ section div.img-pic img {
 
 /* 비공개 설정 시작 */
 section div.secret {
-  border: 1px solid;
   display: flex;
   align-items: center;
   height: 50px;

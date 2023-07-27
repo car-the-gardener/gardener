@@ -15,7 +15,7 @@
   <!-- 헤더 시작 -->
   <header>
     <div class="main-logo">
-      <img src="/suwan/logo.png" alt="">
+      <img src="/suwan/sub-logo.png" alt="">
     </div>
   </header>
   <!-- 헤더 끝 -->
@@ -23,7 +23,7 @@
   <!-- 섹션 시작 -->
   <section>
     <!-- 섹션 헤더 시작 -->
-    <div class="section-header-image">
+    <div class="section-header-image" style="text-align: center;">
       <div class="main-image"></div>
     </div>
     <!-- 섹션 헤더 제목 시작 -->
@@ -39,12 +39,15 @@
     </div>
     <!-- 섹션 헤더 글 정보 끝 -->
 
-    <!-- 섹션 헤더 엄지척 시작 -->
+    <!-- 섹션 헤더 엄지척,신고 시작 -->
     <div class="section-header-icon">
-      <img src="../suwan/thumbs-up.png" alt="좋아요 표시">
-      <p>5</p>
+      <div>
+        <img src="../suwan/thumbs-up.png" alt="좋아요 표시" onclick="alert('카리나 ★ 이수완 예쁘게 봐주세요')">
+        <span>5</span>
+      </div>
+      <div><img src="../suwan/report.png" alt="신고 이미지" onclick="alert('삐용삐용')"></div>
     </div>
-    <!-- 섹션 헤더 엄지척 끝 -->
+    <!-- 섹션 헤더 엄지척,신고 끝 -->
 
     <!-- 섹션 헤더 끝 -->
 
@@ -97,6 +100,7 @@
     <div class="section-comment">
       <!-- 댓글 작성 시작 -->
       <h3>2개 댓글</h3>
+      <hr>
       <!-- 클릭시 작가 유저페이지 이동 -->
       <div class="section-comment-write">
         <div>
@@ -109,6 +113,8 @@
         <div>
           <button>댓글 수정</button>
           <button>댓글 삭제</button>
+          <!-- 만약 내 댓글이 아니라면 신고 버튼이 대신 -->
+          <img src="../suwan/report.png" alt="신고 이미지">
         </div>
       </div>
       <p>
