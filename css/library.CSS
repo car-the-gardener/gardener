@@ -1,8 +1,9 @@
 *{
     box-sizing: border-box;
 }
-header{
+div.logo{
     text-align : center;
+    display: block;
 }
 div.library_view{
     margin: 100px 100px 100px 100px; 
@@ -13,7 +14,8 @@ div.library_view>div.library_like{
     width: 50%;
     position: static;
     text-align: center;
-
+    color: #008000;
+    font-weight: bold;
 }
 div.library_view>div.library_like>span.like:hover{ 
     cursor: pointer;
@@ -25,6 +27,7 @@ div.library_view>div.library_following{
     width: 50%;
     position: static;
     text-align: center;
+    color: rgb(34.0 12 64 / 60%);
 }
 div.library_view>div.library_following>span.following:hover{ 
     cursor: pointer;
@@ -32,6 +35,9 @@ div.library_view>div.library_following>span.following:hover{
 }
 
 section{   
+    
+}
+div.likes{
     
 }
 div.paging{
