@@ -1,0 +1,41 @@
+
+/*header CSS*/
+header>nav>ul{
+    list-style-type: none;
+    padding-left: 200px;
+}
+
+header>nav>ul>li{
+    display: inline-block;
+    width: 19%;
+}
+
+header>nav>ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+
+header>nav>ul>li>a:hover{
+    background-color: greenyellow;
+}
+/*header CSS*/
+
+
+/*footer CSS*/
+footer>div>span.footer-center{
+    border: 1px solid;
+    display: block;
+    text-align: center;
+}
+
+footer{
+    display: inline-block;
+    position: fixed;
+    bottom: 0;
+    border: 1px solid;
+}
+
+
+/*footer CSS*/
+
+
